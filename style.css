@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.top {
+    height: 100%;
+    width: 100vw;
+    /* position: sticky;
+    top: 0px; */
+    /* background: linear-gradient(#4eb1fe, #f4f9fd); */
+    padding-top: 100px;
+    background: linear-gradient(#4eb1fe, #f4f9fd, #3b9b07);
+    position: relative;
+}
+
+.stand {
+    margin-left: 40%;
+    height: 75vh;
+    width: 1vw;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: brown;
+    position: absolute;
+    z-index: 10;
+}
+
+.stairs {
+    margin-top: 531px;
+    position: relative;
+}
+
+.stair {
+    margin-left: 541px;
+    height: 6vh;
+    width: 11vw;
+    border: 2px solid brown;
+    background-color: brown;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 10px;
+}
+
+#s-2 {
+    margin-left: 473px;
+    width: 20vw;
+}
+
+#s-3 {
+    margin-left: 416px;
+    width: 28vw;
+}
+
+.flag {
+    margin-top: 10px;
+
+}
+
+.flags {
+    margin-left: 16px;
+    display: block;
+    height: 70px;
+    width: 350px;
+    animation: wave 1.3s infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#f-1 {
+    border-radius: 0 10px 0 0;
+    background-color: #f46c42;
+}
+
+#f-2 {
+    border-radius: 0 0 0 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#f-2 img {
+    height: 70px;
+    width: 90px;
+}
+
+
+#f-3 {
+    border-radius: 0 0 10px 0;
+    background-color: green;
+}
+
+.grass {
+    display: flex;
+    margin-top: -180px;
+}
+
+.grass img {
+width: 50%;
+}
